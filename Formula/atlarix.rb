@@ -1,30 +1,30 @@
 # Rendered by scripts/ci/render-homebrew-formula.mjs on every release and pushed
 # to AmariahAK/homebrew-atlarix (Formula/atlarix.rb). Do not edit there.
 class Atlarix < Formula
-  desc "AI coding agent in your terminal: any model, the Atlarix app's sessions and settings"
+  desc "AI coding agent in your terminal that works with any model"
   homepage "https://atlarix.dev/cli"
-  version "15.0.0"
+  version "15.0.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.0/atlarix-cli-darwin-arm64.tar.gz"
-      sha256 "e24423a561aa9cbd212df8efe2bc86447f5a213d25681f946396c7cdddce805a"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.1/atlarix-cli-darwin-arm64.tar.gz"
+      sha256 "280d60834f65ab67d657c108076cdb4a418ed5a9bbad85ae8c9cd0929d39f0cc"
     end
     on_intel do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.0/atlarix-cli-darwin-x64.tar.gz"
-      sha256 "55d6b47f1ccf2579c375e51acdefec947eef31fdd8dda86ee32b24a314eb0cc3"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.1/atlarix-cli-darwin-x64.tar.gz"
+      sha256 "d47de2a67ae6967cc8b0a167c93e4eebb7db060d100d46bec39e16efc6edb622"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.0/atlarix-cli-linux-arm64.tar.gz"
-      sha256 "561086df813fb863d8b330686a9c7c5e6cae735e266934bfc14de67619b2f466"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.1/atlarix-cli-linux-arm64.tar.gz"
+      sha256 "b85c8ed5b55fd2c4dcacc8dd3d090c8a71a0326a768870985a1e7ca4e337319b"
     end
     on_intel do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.0/atlarix-cli-linux-x64.tar.gz"
-      sha256 "a784c60a1a0c71c0df687620bac4d202d68cd749c3970c54e3c5c6789c4055cc"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.0.1/atlarix-cli-linux-x64.tar.gz"
+      sha256 "bf1abc6af014c3acc1a9246da55389b2c3ff45bb8026ddf9ec5ef7e19be135ab"
     end
   end
 
