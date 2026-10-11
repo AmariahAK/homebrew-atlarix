@@ -3,28 +3,28 @@
 class Atlarix < Formula
   desc "AI coding agent in your terminal that works with any model"
   homepage "https://atlarix.dev/cli"
-  version "15.4.2"
+  version "15.5.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.4.2/atlarix-cli-darwin-arm64.tar.gz"
-      sha256 "828a7cb604055bf98743c5685f6fc4da3dc2a07acbb729e5053c85e0e415f24c"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.5.0/atlarix-cli-darwin-arm64.tar.gz"
+      sha256 "04489e40119d2d61384509048d3ee31a5ff8ff2626a7ff70557144e782a8268d"
     end
     on_intel do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.4.2/atlarix-cli-darwin-x64.tar.gz"
-      sha256 "cf3c1fb34eea9db42296973d50a224d49f8a31b1bda8747c68c3aff043a97d06"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.5.0/atlarix-cli-darwin-x64.tar.gz"
+      sha256 "24d0a96dda60303395e3dbc03ce2ab633cd6b53056be196f621d270f9731bbb7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.4.2/atlarix-cli-linux-arm64.tar.gz"
-      sha256 "288ca51bd7693196c6d641a824251b4b22204fefd91222e1bc4783fd702139f8"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.5.0/atlarix-cli-linux-arm64.tar.gz"
+      sha256 "d0159f01daee8f0d7c8e7bcca107b13d4ce50c9b7e3c2e1aeda6d1505f89fec9"
     end
     on_intel do
-      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.4.2/atlarix-cli-linux-x64.tar.gz"
-      sha256 "08d889c810ea4f1a5bb905de3a9770889fefb0f77315d39bf12ff05456b93581"
+      url "https://github.com/AmariahAK/atlarix-releases/releases/download/v15.5.0/atlarix-cli-linux-x64.tar.gz"
+      sha256 "1ef10ca97240524ed9c8fd78d08b8b193c8d80de54358660cda343855b5ea95c"
     end
   end
 
