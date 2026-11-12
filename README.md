@@ -29,11 +29,12 @@ The formula is updated automatically on every release.
 curl -fsSL https://atlarix.dev/install | sh          # macOS, Linux
 irm https://atlarix.dev/install.ps1 | iex             # Windows (PowerShell)
 npm install -g atlarix                                # npm
+winget install AmariahAK.AtlarixCLI                   # Windows (winget)
 ```
 
 ## Links
 
-- [What the CLI does](https://atlarix.dev/cli) · [Docs](https://atlarix.dev/docs) · [Changelog](https://atlarix.dev/changelog)
+- [What the CLI does](https://atlarix.dev/cli) · [Atlarix for VS Code, Cursor and Kiro](https://www.atlarix.dev/vscode) · [Docs](https://atlarix.dev/docs) · [Changelog](https://atlarix.dev/changelog)
 - [Releases and issues](https://github.com/AmariahAK/atlarix-releases)
 
 Atlarix is built by [NorahLabs](https://norahlabs.com).
